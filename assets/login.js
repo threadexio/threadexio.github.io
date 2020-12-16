@@ -25,7 +25,7 @@ function aaa(pXDOp2Q) {
 }
 
 function aao(Y8BCQcj) {
-    return (SHA256(Y8BCQcj) === aaa(a));
+    return (SHA256(Y8BCQcj) === aaa(Y8BCQcj));
 }
 
 function o() {
