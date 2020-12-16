@@ -36,5 +36,5 @@ document.getElementById('login').addEventListener('click', () => {
     const INAKX = document.getElementById('username').value;
     const Xbg6U = document.getElementById('password').value;
     const msgbox = document.getElementById('msgbox');
-    (INAKX === "admin" && aao(Xbg6U)) ? finish() : o()
+    (INAKX === "admin" && aao(Xbg6U)) ? finish(INAKX, Xbg6U) : o()
 });
